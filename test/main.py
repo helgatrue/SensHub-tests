@@ -10,7 +10,7 @@ from test.util import get_dated_name
 
 
 @log_config
-def heat_dashboard_tests():
+def heat_dashboard_test():
     driver = webdriver.Chrome('chromedriver')
     driver.maximize_window()
     driver.get("https://st-dev.scrdairy.com/")
@@ -48,4 +48,4 @@ def heat_dashboard_tests():
 
 
 if __name__ == '__main__':
-    heat_dashboard_tests()
+    heat_dashboard_test()
